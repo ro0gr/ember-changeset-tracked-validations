@@ -1,7 +1,7 @@
 {
-  "name": "ember-changeset-cp-validations",
+  "name": "ember-changeset-tracked-validations",
   "version": "0.2.0",
-  "description": "Ember CP Validations support for Ember Changeset",
+  "description": "Ember Tracked Validations support for Ember Changeset",
   "keywords": [
     "ember-addon"
   ],
@@ -27,6 +27,7 @@
     "ember-cli-version-checker": "^1.1.6"
   },
   "devDependencies": {
+    "@eflexsystems/ember-tracked-validations": "^5.0.2",
     "broccoli-asset-rev": "^2.4.5",
     "ember-cli": "~3.0.0",
     "ember-cli-code-coverage": "0.3.8",
@@ -39,7 +40,6 @@
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
-    "ember-cp-validations": "^3.5.1",
     "ember-disable-prototype-extensions": "^1.1.2",
     "ember-export-application-global": "^2.0.0",
     "ember-getowner-polyfill": "1.0.1",
