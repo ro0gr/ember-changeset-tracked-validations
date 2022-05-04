@@ -12,9 +12,9 @@ export function buildChangeset(model) {
     }, {}),
 
     validateFn: ({ key, newValue }) => {
-      return model.validateAttribute(key, newValue).then(({ validations }) => {
-        return validations.get('isValid') ? true : validations.get('message');
-      });
+      const { validations } = model.validateAttribute(key, newValue);
+
+      return validations.isValid ? true : validations.message;
     }
   };
 }
