@@ -24,7 +24,7 @@
   "dependencies": {
     "ember-changeset": "^1.1.2",
     "ember-cli-babel": "^6.6.0",
-    "ember-cli-version-checker": "^1.1.6"
+    "ember-cli-version-checker": "^5.1.2"
   },
   "devDependencies": {
     "@eflexsystems/ember-tracked-validations": "^5.0.2",
