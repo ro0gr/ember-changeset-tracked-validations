@@ -3,7 +3,7 @@ import { typeOf } from '@ember/utils';
 import Changeset from 'ember-changeset';
 
 export function buildChangeset(model) {
-  assert('Object does not contain any validations', typeOf(model.get('validations')) === 'instance');
+  assert('Object does not contain any validations', typeOf(model.get('validations')) === 'object');
 
   return {
     validationMap: model.get('validations.validatableAttributes').reduce((o, attr) => {
