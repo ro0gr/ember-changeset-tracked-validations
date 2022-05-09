@@ -7,7 +7,7 @@ export function buildChangeset(model) {
 
   return {
     validationMap: model.get('validations.validatableAttributes').reduce((o, attr) => {
-      o[attr] = true;
+      o[attr] = () => {};
       return o;
     }, {}),
 
